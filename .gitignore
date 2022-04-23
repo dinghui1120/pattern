@@ -16,5 +16,6 @@ pattern/.project
 pattern/.settings/
 pattern/target/
 temp
+target
 
 

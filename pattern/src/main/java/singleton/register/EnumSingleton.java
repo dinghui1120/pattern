@@ -8,8 +8,13 @@ package singleton.register;
  * 枚举登记
  */
 public enum EnumSingleton {
-    INSTANCE;
+    INSTANCE("ssss");
     private Object data;
+    private String name;
+
+    EnumSingleton(String name) {
+        this.name = name;
+    }
 
     public Object getData() {
         return data;
